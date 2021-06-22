@@ -1,0 +1,15 @@
+[user]
+	name = Sosuke Matsumoto
+	email = sskm0318@gmail.com
+[core]
+	excludesfile = /Users/ssk0318/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree 2.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/ssk0318/.stCommitMsg
+[pull]
+	rebase = false

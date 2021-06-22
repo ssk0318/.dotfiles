@@ -1,0 +1,6 @@
+---
+BUNDLE_BUILD__MYSQL2: "--with-ldflags=-L/usr/local/opt/openssl/lib"
+# BUNDLE_BUILD__MYSQL2: "--with-ldflags=-L/usr/local/opt/openssl/lib --with-cppflags=-I/usr/local/opt/openssl/include"
+# BUNDLE_BUILD__NOKOGIRI: "--use-system-libraries --with-xml2-include=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/libxml2"
+BUNDLE_BUILD__PUMA: "--with-cflags=-Wno-error=implicit-function-declaration"
+BUNDLE_BUILD__NOKOGIRI: "-v 1.10.9"
